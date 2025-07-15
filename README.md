@@ -1,12 +1,30 @@
-# React + Vite
+# Dogs 🐶
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido durante o curso de **React Completo** da Origamid, com o objetivo de criar uma rede social para cachorros, utilizando React moderno com rotas, contexto, hooks personalizados, consumo de API e proteção de rotas.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19**
+- **React Router DOM**
+- **Context API**
+- **Vite**
+- **PropTypes**
+- **Victory** (para gráficos)
+- **gh-pages** (para deploy no GitHub Pages)
 
-## Expanding the ESLint configuration
+## 🔧 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Cadastro e login de usuários.
+- Publicação de fotos com descrição e peso do animal.
+- Comentários nas fotos.
+- Perfil do usuário com estatísticas e postagens.
+- Rotas protegidas com verificação de login.
+- Gráficos com estatísticas do usuário.
+- Deploy com GitHub Pages.
+
+## 📦 Como visualizar
+
+Acesse o projeto pelo link: [https://egnaldo-viana.github.io/Dogs/](https://egnaldo-viana.github.io/Dogs/)  
+Ou clone este repositório, instale as dependências com `npm install` e utilize o comando `npm run dev` para rodar localmente.
+
+
